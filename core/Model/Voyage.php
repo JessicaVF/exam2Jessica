@@ -25,14 +25,14 @@ class Voyage extends Model{
     }
 
 
-    // public function findNumberofVoyagePerVelo($velo_id){
+    public function findNumberVoyagePerVelo($velo_id){
 
-    //     $maRequete = $this->pdo->prepare("SELECT * FROM $this->table WHERE velo_id =:velo_id");
-    //     $maRequete->execute(['velo_id'=>$velo_id]);
-    //     $voyages = $maRequete->rowCount();
+        $maRequete = $this->pdo->prepare("SELECT * FROM $this->table WHERE velo_id =:velo_id");
+        $maRequete->execute(['velo_id'=>$velo_id]);
+        $voyages = $maRequete->rowCount();
 
-    //     return $voyages;
+        return $voyages;
 
-    // }
-
+    }
+    
 }

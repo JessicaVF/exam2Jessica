@@ -14,7 +14,7 @@ class Velo extends Controller{
 
         $velos = $velo->findAll();
 
-   
+           
         \Rendering::render('velos/velos', compact('titreDeLaPage', 'velos'));
 
 
@@ -62,5 +62,6 @@ class Velo extends Controller{
         \Http::redirect("index.php?controller=velo&task=index");
 
     }
+    
 
 }
