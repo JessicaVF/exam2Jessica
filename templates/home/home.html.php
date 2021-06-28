@@ -1,3 +1,6 @@
+<br>
+<a class="btn btn-success" href="index?controller=velo&task=index">Exam</a>
+<hr>
 <p>Welcome to the documentation of this framework</p>
 
 <div class="row">

@@ -1,6 +1,6 @@
 <?php
 
-// namespace Model;
+namespace Model;
 //->the namespace let us avoid confussions if we are calling
 //the controller class with the same name
 namespace Model;
